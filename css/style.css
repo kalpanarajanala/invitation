@@ -1,0 +1,262 @@
+@font-face {
+    font-family: "sacramento";
+    /*font-weight: 600;*/
+    src: url(../css/font/sacramento.regular.ttf);
+  }
+@font-face {
+    font-family: "work sans";
+    /*font-weight: 600;*/
+    src: url(../css/font/WorkSans-Regular.otf);
+  }
+body{
+    font-family: "work sans",Arial,"sans-serif";
+}
+header{
+    background:#ccc;
+    background-image: url('../images/i4.jpg');  
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 580px;
+}
+.header-desc{
+    padding: 50px;
+}
+.nav-parent{
+    position: absolute;
+    width: 100%;
+}
+.nav-outer{
+    background-color: transparent !important;
+}
+.header-content{
+    margin-top: 80px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.invites{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.invites p, .couple-details p{
+    color: #828282;
+}
+.venue-content span {
+    color: #070103;
+}
+.invites-contents{
+    padding: 30px 0 30px 0;
+}
+.invites-contents h2{
+    font-family: sacramento;
+    font-size: 37px;
+    font-weight: bold;
+    color: #F14E95;
+}
+.wedding-couples{
+    padding: 50px;
+}
+.groom{
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+}
+.groom img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.couples-name{
+        text-align: center;
+}
+.couples-name h2{
+    margin-bottom: 0px;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 1.5;
+    font-family: "Sacramento", Arial, serif;
+}
+
+.couple-details{
+    width: 100%;
+    text-align: center;
+}
+.wedding-place{
+    background-image:url('../images/place_bg.jpg') ;
+    padding: 50px;
+    background-size: cover;
+    position: relative;
+}
+.event{
+    justify-content: center;
+    margin-bottom: 5em;
+}
+.event-desc{
+    text-align: center;
+}
+.event-desc p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px; 
+    letter-spacing: 2px; 
+    font-weight: 600; 
+}
+
+.event-desc h2{
+    font-family: "Sacramento", Arial, serif;
+    color: white;
+    font-size: 60px;
+}
+
+.event-wrap{
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    width: 100%;
+    float: left;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+}
+.event-wrap h3{
+    font-size: 20px;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    display: block;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.event-div{
+    margin-bottom: 10px;
+}
+.event-col{
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+}
+.event-wrap span, .event-wrap p{
+    display: block;
+    color: rgba(255, 255, 255, 0.8);
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+.wedding-venues{
+        /*background: rgba(0, 0, 0, 0.04);*/
+        background:#ccc;
+}
+.venue-content{
+    margin: 0 auto;
+    padding: 60px;
+}
+.venu-content span{
+    text-transform: uppercase;
+}
+.venue-wrap, .family-content h2{
+    padding: 0px 0 50px 0;
+    font-weight: bold;
+    color: #F14E95;
+    font-size: 38px;
+    font-family: "Sacramento", Arial, serif;
+}
+.family-details{
+    padding: 7em 0;
+}
+.family-carousel{
+    margin: 0 auto;
+}
+.family-content{
+    text-align: center;
+}
+.family-content span{
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.4)
+}
+.carousel-image{
+    margin: 0 auto;
+    width:250px;
+    height: 250px;
+}
+.carousel-image img{
+    border-radius: 340px;
+    width:100%;
+    height: 100%;
+}
+.carousel-content{
+    text-align: center;;
+}
+.carousel-inner{
+    /*overflow:inherit;*/
+}
+.carousel-indicators{
+    bottom: -60px !important
+}
+.carousel-indicators li{
+    background-color: #f14e95;
+}
+@media screen and (max-width: 425px){
+    /*.ml-auto{
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: #d0bcbc;
+    color: white !important;
+    }*/
+    .couples-name h2{
+        font-size: 50px;
+    }
+    .event-desc h2{
+        font-size: 40px;
+}
+}
+
+@media screen and (min-width:426px and max-width: 768px){
+    .couples-name h2{
+        font-size:50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        position: absolute;
+        top: 54px;
+        right: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        width: 100%;
+        transition: all 0.3s ease;
+        display: block;
+    }
+    .navbar-collapse.collapsing {
+        height: auto !important;
+        margin-right: 50%;
+        transition: all 0.3s ease;
+        display: block;
+    }
+    .navbar-collapse.show {
+        right: 0;
+        background: radial-gradient(#fffdfd, transparent);
+        top: 54px;
+    }
+    .nav-parent{
+            background: radial-gradient(white, transparent);
+    }
+}
+.nav-link{
+        color: #000 !important;
+}
